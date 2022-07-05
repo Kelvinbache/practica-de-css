@@ -14,3 +14,19 @@ body{
 p{
     font-size: 2em;
 }
+ 
+/* exiten mas de una manera de colocar un borde
+1 solid
+2 dotted
+investiga para ver nuevas formas
+*/
+
+/* consejo cunado uses height siempre calcula la medida de los margin y paddons */
+
+.cotenedor{
+    background: rgb(128, 55, 245);
+    width: 500px;
+  /* cuando coloque una propiedad de magirn o padding siempre recuerda que izquierdad es arriba y abajo depues derecha son los laterales*/ 
+    margin: 20px 30px; 
+    border: 1px dotted blanchedalmond;
+}
