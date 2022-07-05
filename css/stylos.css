@@ -1,7 +1,12 @@
+/*esta un manera de colocar imagenes*/
 body{
-    background: rgb(245, 93, 93);
-    font-size: 10px;
-    
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtiTgJdbz-uYCXmQASKY1--8HCz6v7jvMTg&usqp=CAU");
+    /*esto nos permite hacer quem la imagen quede en una posicion o se mueva*/
+    background-attachment: scroll;  
+    /*esto hacer que una imagen no se repita*/
+    background-repeat:no-repeat; 
+    /*nos permite posiionar las imagenes de un fondo*/
+    background-position: 55% 100px ;
 }
 
  /* 
