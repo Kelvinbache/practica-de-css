@@ -1,37 +1,38 @@
-/*esta un manera de colocar imagenes*/
-body{
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtiTgJdbz-uYCXmQASKY1--8HCz6v7jvMTg&usqp=CAU");
-    /*esto nos permite hacer quem la imagen quede en una posicion o se mueva*/
-    background-attachment: scroll;  
-    /*esto hacer que una imagen no se repita*/
-    background-repeat:no-repeat; 
-    /*nos permite posiionar las imagenes de un fondo*/
-    background-position: 55% 100px ;
+*{
+    margin: 0;
+    padding: 0;
 }
 
- /* 
- unidades de medidas relativas
- 1:em esquivale los pelex que tenga el elemento padre 
-
- */
-
-
-p{
-    font-size: 2em;
+.cabeza{
+    background: orange;
+    width: 80%;
+    margin: 10px;
 }
- 
-/* exiten mas de una manera de colocar un borde
-1 solid
-2 dotted
-investiga para ver nuevas formas
-*/
 
-/* consejo cunado uses height siempre calcula la medida de los margin y paddons */
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
-.cotenedor{
-    background: rgb(128, 55, 245);
-    width: 500px;
-  /* cuando coloque una propiedad de magirn o padding siempre recuerda que izquierdad es arriba y abajo depues derecha son los laterales*/ 
-    margin: 20px 30px; 
-    border: 1px dotted blanchedalmond;
+.secceciones{
+    padding: 10px;
+    width: 25rem;
+}
+
+.lateral{
+    background: green;
+    height: 320px;
+    width: 190px;
+    grid-column: 3/3 ;
+}
+
+.slayder{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_SHvVTTvC1k1HYqa30WE-2Ft1N1SkknleA&usqp=CAU");
+    background-repeat:no-repeat ;
+    height: 150px;
+    width: 450px;
+}
+
+.slayder p{
+    color: aliceblue;
 }
